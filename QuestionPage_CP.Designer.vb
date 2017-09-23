@@ -1,0 +1,334 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class QuestionPage_CP
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Submit_Button = New System.Windows.Forms.Button()
+        Me.Clr_Button = New System.Windows.Forms.Button()
+        Me.Save_Button = New System.Windows.Forms.Button()
+        Me.Next_Button = New System.Windows.Forms.Button()
+        Me.Pre_Button = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Ques_label = New System.Windows.Forms.Label()
+        Me.QNo_label = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.ca_label = New System.Windows.Forms.Label()
+        Me.OP4_RB = New System.Windows.Forms.RadioButton()
+        Me.OP3_RB = New System.Windows.Forms.RadioButton()
+        Me.OP2_RB = New System.Windows.Forms.RadioButton()
+        Me.OP1_RB = New System.Windows.Forms.RadioButton()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.min = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.sec = New System.Windows.Forms.Label()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.MAIN.My.Resources.Resources.logo
+        Me.PictureBox1.Location = New System.Drawing.Point(18, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(78, 83)
+        Me.PictureBox1.TabIndex = 12
+        Me.PictureBox1.TabStop = False
+        '
+        'Submit_Button
+        '
+        Me.Submit_Button.Enabled = False
+        Me.Submit_Button.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Submit_Button.Location = New System.Drawing.Point(973, 585)
+        Me.Submit_Button.Name = "Submit_Button"
+        Me.Submit_Button.Size = New System.Drawing.Size(101, 33)
+        Me.Submit_Button.TabIndex = 19
+        Me.Submit_Button.Text = "Submit"
+        Me.Submit_Button.UseVisualStyleBackColor = True
+        '
+        'Clr_Button
+        '
+        Me.Clr_Button.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Clr_Button.Location = New System.Drawing.Point(254, 585)
+        Me.Clr_Button.Name = "Clr_Button"
+        Me.Clr_Button.Size = New System.Drawing.Size(101, 33)
+        Me.Clr_Button.TabIndex = 18
+        Me.Clr_Button.Text = "Clear"
+        Me.Clr_Button.UseVisualStyleBackColor = True
+        '
+        'Save_Button
+        '
+        Me.Save_Button.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Save_Button.Location = New System.Drawing.Point(491, 585)
+        Me.Save_Button.Name = "Save_Button"
+        Me.Save_Button.Size = New System.Drawing.Size(101, 33)
+        Me.Save_Button.TabIndex = 17
+        Me.Save_Button.Text = "Save"
+        Me.Save_Button.UseVisualStyleBackColor = True
+        '
+        'Next_Button
+        '
+        Me.Next_Button.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Next_Button.Location = New System.Drawing.Point(735, 585)
+        Me.Next_Button.Name = "Next_Button"
+        Me.Next_Button.Size = New System.Drawing.Size(101, 33)
+        Me.Next_Button.TabIndex = 16
+        Me.Next_Button.Text = "Next"
+        Me.Next_Button.UseVisualStyleBackColor = True
+        '
+        'Pre_Button
+        '
+        Me.Pre_Button.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Pre_Button.Location = New System.Drawing.Point(33, 585)
+        Me.Pre_Button.Name = "Pre_Button"
+        Me.Pre_Button.Size = New System.Drawing.Size(97, 33)
+        Me.Pre_Button.TabIndex = 15
+        Me.Pre_Button.Text = "Previous"
+        Me.Pre_Button.UseVisualStyleBackColor = True
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Panel1.Controls.Add(Me.Ques_label)
+        Me.Panel1.Controls.Add(Me.QNo_label)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Location = New System.Drawing.Point(18, 112)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1130, 135)
+        Me.Panel1.TabIndex = 25
+        '
+        'Ques_label
+        '
+        Me.Ques_label.AutoEllipsis = True
+        Me.Ques_label.AutoSize = True
+        Me.Ques_label.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Ques_label.Location = New System.Drawing.Point(33, 65)
+        Me.Ques_label.Name = "Ques_label"
+        Me.Ques_label.Size = New System.Drawing.Size(67, 23)
+        Me.Ques_label.TabIndex = 29
+        Me.Ques_label.Text = "Label3"
+        '
+        'QNo_label
+        '
+        Me.QNo_label.AutoSize = True
+        Me.QNo_label.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.QNo_label.Location = New System.Drawing.Point(151, 18)
+        Me.QNo_label.Name = "QNo_label"
+        Me.QNo_label.Size = New System.Drawing.Size(67, 23)
+        Me.QNo_label.TabIndex = 28
+        Me.QNo_label.Text = "Label2"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(33, 18)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(112, 23)
+        Me.Label1.TabIndex = 27
+        Me.Label1.Text = "Question no"
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.Panel2.Controls.Add(Me.ca_label)
+        Me.Panel2.Controls.Add(Me.OP4_RB)
+        Me.Panel2.Controls.Add(Me.OP3_RB)
+        Me.Panel2.Controls.Add(Me.OP2_RB)
+        Me.Panel2.Controls.Add(Me.OP1_RB)
+        Me.Panel2.Location = New System.Drawing.Point(18, 279)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1130, 269)
+        Me.Panel2.TabIndex = 26
+        '
+        'ca_label
+        '
+        Me.ca_label.AutoSize = True
+        Me.ca_label.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.ca_label.Location = New System.Drawing.Point(658, 154)
+        Me.ca_label.Name = "ca_label"
+        Me.ca_label.Size = New System.Drawing.Size(39, 13)
+        Me.ca_label.TabIndex = 29
+        Me.ca_label.Text = "Label2"
+        Me.ca_label.Visible = False
+        '
+        'OP4_RB
+        '
+        Me.OP4_RB.AutoSize = True
+        Me.OP4_RB.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OP4_RB.Location = New System.Drawing.Point(41, 198)
+        Me.OP4_RB.Name = "OP4_RB"
+        Me.OP4_RB.Size = New System.Drawing.Size(147, 27)
+        Me.OP4_RB.TabIndex = 28
+        Me.OP4_RB.TabStop = True
+        Me.OP4_RB.Text = "RadioButton4"
+        Me.OP4_RB.UseVisualStyleBackColor = True
+        '
+        'OP3_RB
+        '
+        Me.OP3_RB.AutoSize = True
+        Me.OP3_RB.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OP3_RB.Location = New System.Drawing.Point(41, 140)
+        Me.OP3_RB.Name = "OP3_RB"
+        Me.OP3_RB.Size = New System.Drawing.Size(147, 27)
+        Me.OP3_RB.TabIndex = 27
+        Me.OP3_RB.TabStop = True
+        Me.OP3_RB.Text = "RadioButton3"
+        Me.OP3_RB.UseVisualStyleBackColor = True
+        '
+        'OP2_RB
+        '
+        Me.OP2_RB.AutoSize = True
+        Me.OP2_RB.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OP2_RB.Location = New System.Drawing.Point(41, 82)
+        Me.OP2_RB.Name = "OP2_RB"
+        Me.OP2_RB.Size = New System.Drawing.Size(147, 27)
+        Me.OP2_RB.TabIndex = 26
+        Me.OP2_RB.TabStop = True
+        Me.OP2_RB.Text = "RadioButton2"
+        Me.OP2_RB.UseVisualStyleBackColor = True
+        '
+        'OP1_RB
+        '
+        Me.OP1_RB.AutoSize = True
+        Me.OP1_RB.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OP1_RB.Location = New System.Drawing.Point(41, 27)
+        Me.OP1_RB.Name = "OP1_RB"
+        Me.OP1_RB.Size = New System.Drawing.Size(147, 27)
+        Me.OP1_RB.TabIndex = 25
+        Me.OP1_RB.TabStop = True
+        Me.OP1_RB.Text = "RadioButton1"
+        Me.OP1_RB.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(820, 51)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(119, 27)
+        Me.Label2.TabIndex = 30
+        Me.Label2.Text = "Time Left :"
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(1073, 51)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(43, 27)
+        Me.Label5.TabIndex = 39
+        Me.Label5.Text = "sec"
+        '
+        'min
+        '
+        Me.min.AutoSize = True
+        Me.min.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.min.Location = New System.Drawing.Point(956, 51)
+        Me.min.Name = "min"
+        Me.min.Size = New System.Drawing.Size(24, 27)
+        Me.min.TabIndex = 38
+        Me.min.Text = "9"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(987, 51)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 27)
+        Me.Label3.TabIndex = 37
+        Me.Label3.Text = "min"
+        '
+        'sec
+        '
+        Me.sec.AutoSize = True
+        Me.sec.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.sec.Location = New System.Drawing.Point(1031, 51)
+        Me.sec.Name = "sec"
+        Me.sec.Size = New System.Drawing.Size(36, 27)
+        Me.sec.TabIndex = 36
+        Me.sec.Text = "59"
+        '
+        'QuestionPage_CP
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(1184, 661)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.min)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.sec)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Submit_Button)
+        Me.Controls.Add(Me.Clr_Button)
+        Me.Controls.Add(Me.Save_Button)
+        Me.Controls.Add(Me.Next_Button)
+        Me.Controls.Add(Me.Pre_Button)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Name = "QuestionPage_CP"
+        Me.Text = "QuestionPage_CP"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Submit_Button As System.Windows.Forms.Button
+    Friend WithEvents Clr_Button As System.Windows.Forms.Button
+    Friend WithEvents Save_Button As System.Windows.Forms.Button
+    Friend WithEvents Next_Button As System.Windows.Forms.Button
+    Friend WithEvents Pre_Button As System.Windows.Forms.Button
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Ques_label As System.Windows.Forms.Label
+    Friend WithEvents QNo_label As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents OP4_RB As System.Windows.Forms.RadioButton
+    Friend WithEvents OP3_RB As System.Windows.Forms.RadioButton
+    Friend WithEvents OP2_RB As System.Windows.Forms.RadioButton
+    Friend WithEvents OP1_RB As System.Windows.Forms.RadioButton
+    Friend WithEvents ca_label As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents min As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents sec As System.Windows.Forms.Label
+End Class
